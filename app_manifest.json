@@ -1,0 +1,12 @@
+{
+  "SchemaVersion": 1,
+  "Name": "blink-again",
+  "ComponentId": "4a906bd4-7dd5-4716-bddc-d6ec4802fb0b",
+  "EntryPoint": "/bin/app",
+  "CmdArgs": [],
+  "Capabilities": {
+    "Gpio": [ "$TEMPLATE_LED" ],
+    "AllowedApplicationConnections": []
+  },
+  "ApplicationType": "Default"
+}
